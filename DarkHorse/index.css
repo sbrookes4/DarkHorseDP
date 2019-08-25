@@ -1,0 +1,17 @@
+body{
+margin:0;
+background-color:black;	
+color:white;
+overflow-x: hidden;
+}
+
+.navText{
+
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+.navbar-toggler-icon{
+	display: block;
+}

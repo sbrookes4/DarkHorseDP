@@ -1,0 +1,20 @@
+.IMGwrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.IMGwrapper:after {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+.IMGwrapper img {
+  width: 75%;
+  height: 100%;
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
